@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.red_button)
     public void buttonPressed() {
+        // TODO fix double click hack
         Log.d("buttonPressed", "Button is Pressed");
         detectDoubleClick();
         if(doubleClick) {
